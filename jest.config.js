@@ -25,7 +25,7 @@ module.exports = {
   transform: {
     '.+\\.ts$': 'ts-jest'
   },
-
-  // A preset that is used as a base for Jest's configuration
-  preset: '@shelf/jest-mongodb'
+  moduleNameMapper: {
+    '@/(.*)': '<rootDir>/src/$1'
+  }
 }

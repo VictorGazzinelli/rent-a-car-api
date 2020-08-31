@@ -1,10 +1,8 @@
 {
     "*.ts":[
-        "eslint 'src/**' --fix --no-error-on-unmatched-pattern",
-        "npm run test:staged"
+        "eslint 'src/**' --fix --no-error-on-unmatched-pattern"
     ],
     "*.js":[
-        "eslint 'src/**' --fix --no-error-on-unmatched-pattern",
-        "npm run test:staged"
+        "eslint 'src/**' --fix --no-error-on-unmatched-pattern"
     ]
 }
